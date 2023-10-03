@@ -241,8 +241,6 @@ public class Solver {
             //load store
             if(entry.pointer() instanceof CSVar csVar){
                 Var var = csVar.getVar();
-                if(var.getName().equals("temp$1"))
-                    System.out.println("her");
                 Context context = csVar.getContext();
                 for(CSObj obj : subSet){
                     //x.f = y
