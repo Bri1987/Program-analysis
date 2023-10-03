@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pascal.taie.analysis.pta.CSPTATest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-09-14T12:55:59" hostname="LAPTOP-KBUS4ACO" time="5.265">
+  <properties/>
+  <testcase name="testTwoCall" classname="pascal.taie.analysis.pta.CSPTATest" time="5.265"/>
+  <system-out><![CDATA[Tai-e starts ...
+Writing options to output\options.yml
+Writing analysis plan to output\tai-e-plan.yml
+WorldBuilder starts ...
+9826 classes with 97549 methods in the world
+WorldBuilder finishes, elapsed time: 4.46s
+class-dumper starts ...
+Dumping 4 classes to output ...
+class-dumper finishes, elapsed time: 0.07s
+cspta starts ...
+-------------- Pointer analysis statistics: --------------
+#var pointers:                17 (insens) / 25 (sens)
+#var points-to:               23 (insens) / 25 (sens)
+#static field points-to:      0 (sens)
+#instance field points-to:    0 (sens)
+#array points-to:             0 (sens)
+#reachable methods:           8 (insens) / 13 (sens)
+#call graph edges:            10 (insens) / 12 (sens)
+----------------------------------------
+Comparing points-to set with src\test\resources\pta\cspta\TwoCall-cspta-expected.txt ...
+cspta finishes, elapsed time: 0.17s
+Tai-e finishes, elapsed time: 4.87s
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

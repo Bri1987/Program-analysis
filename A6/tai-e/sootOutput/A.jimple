@@ -1,0 +1,40 @@
+class A extends java.lang.Object
+{
+
+    B id(B)
+    {
+        A this;
+        B b, temp$0;
+
+        this := @this: A;
+
+        b := @parameter0: B;
+
+        temp$0 = virtualinvoke this.<A: B _id(B)>(b);
+
+        return temp$0;
+    }
+
+    B _id(B)
+    {
+        A this;
+        B p;
+
+        this := @this: A;
+
+        p := @parameter0: B;
+
+        return p;
+    }
+
+    void <init>()
+    {
+        A this;
+
+        this := @this: A;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+}

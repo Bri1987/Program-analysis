@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class pascal.taie.analysis.dataflow.analysis.DeadCodeTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class pascal.taie.analysis.dataflow.analysis.DeadCodeTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/pascal.taie.analysis.dataflow.analysis.html">pascal.taie.analysis.dataflow.analysis</a> &gt; DeadCodeTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">4.223s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="testNotDead"></a>
+<h3 class="failures">testNotDead</h3>
+<span class="code">
+<pre>pascal.taie.frontend.soot.SootFrontendException: Soot's Java frontend failed to parse input Java source file(s).
+This exception may be caused by:
+1. Syntax errors in the source code. In this case, please fix the errors.
+2. Language features not supported by Soot's Java frontend. These include
+   all features introduced since Java 8, and some earlier features
+   such as diamond operator (&lt;&gt;).
+   In this case, we suggest you compile the source code to bytecode (*.class)
+   and let Tai-e analyze bytecode.
+	at app//pascal.taie.frontend.soot.SootWorldBuilder.runSoot(SootWorldBuilder.java:242)
+	at app//pascal.taie.frontend.soot.SootWorldBuilder.build(SootWorldBuilder.java:70)
+	at app//pascal.taie.Main.lambda$buildWorld$3(Main.java:121)
+	at app//pascal.taie.util.Timer.lambda$runAndCount$0(Timer.java:112)
+	at app//pascal.taie.util.Timer.runAndCount(Timer.java:93)
+	at app//pascal.taie.util.Timer.runAndCount(Timer.java:111)
+	at app//pascal.taie.util.Timer.runAndCount(Timer.java:107)
+	at app//pascal.taie.Main.buildWorld(Main.java:116)
+	at app//pascal.taie.Main.lambda$main$0(Main.java:55)
+	at app//pascal.taie.util.Timer.lambda$runAndCount$0(Timer.java:112)
+	at app//pascal.taie.util.Timer.runAndCount(Timer.java:93)
+	at app//pascal.taie.util.Timer.runAndCount(Timer.java:111)
+	at app//pascal.taie.util.Timer.runAndCount(Timer.java:107)
+	at app//pascal.taie.Main.main(Main.java:48)
+	at app//pascal.taie.analysis.Tests.test(Tests.java:89)
+	at app//pascal.taie.analysis.dataflow.analysis.DeadCodeTest.testDCD(DeadCodeTest.java:31)
+	at app//pascal.taie.analysis.dataflow.analysis.DeadCodeTest.testNotDead(DeadCodeTest.java:64)
+	at java.base@17.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.1/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at app//org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at app//org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at app//org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at app//org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at app//org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at app//org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at app//org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at app//org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at app//org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at app//org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at app//org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at app//org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at app//org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at app//org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at app//org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base@17.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.1/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+Caused by: java.lang.RuntimeException: Error: couldn't find class: NOTDead are the packages set properly?
+	at soot.JastAddInitialResolver.resolveFromJavaFile(JastAddInitialResolver.java:119)
+	at soot.JavaClassSource.resolve(JavaClassSource.java:67)
+	at soot.SootResolver.bringToHierarchyUnchecked(SootResolver.java:271)
+	at soot.SootResolver.bringToHierarchy(SootResolver.java:240)
+	at soot.SootResolver.bringToSignatures(SootResolver.java:310)
+	at soot.SootResolver.bringToBodies(SootResolver.java:350)
+	at soot.SootResolver.processResolveWorklist(SootResolver.java:187)
+	at soot.SootResolver.resolveClass(SootResolver.java:152)
+	at soot.Scene.loadClass(Scene.java:1004)
+	at soot.Scene.loadClassAndSupport(Scene.java:991)
+	at soot.Scene.loadNecessaryClass(Scene.java:1798)
+	at soot.Scene.loadNecessaryClasses(Scene.java:1810)
+	at soot.Main.run(Main.java:254)
+	at pascal.taie.frontend.soot.SootWorldBuilder.runSoot(SootWorldBuilder.java:228)
+	... 59 more
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">testNotDead</td>
+<td class="failures">4.223s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Tai-e starts ...
+Writing options to output\options.yml
+Writing analysis plan to output\tai-e-plan.yml
+WorldBuilder starts ...
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.4</a> at 2023年9月10日 下午2:34:17</p>
+</div>
+</div>
+</body>
+</html>

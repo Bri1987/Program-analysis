@@ -1,0 +1,81 @@
+class NotDead extends java.lang.Object
+{
+
+    void foo(int, int)
+    {
+        NotDead this;
+        int x, y, a, temp$0, temp$1;
+
+        this := @this: NotDead;
+
+        x := @parameter0: int;
+
+        y := @parameter1: int;
+
+        if x > y goto label1;
+
+        goto label2;
+
+     label1:
+        nop;
+
+        temp$0 = 0;
+
+        a = temp$0;
+
+        goto label3;
+
+     label2:
+        nop;
+
+        temp$1 = 1;
+
+        a = temp$1;
+
+     label3:
+        nop;
+
+        virtualinvoke this.<NotDead: void use(int)>(a);
+
+        return;
+    }
+
+    int bar()
+    {
+        NotDead this;
+        int x, y, z;
+
+        this := @this: NotDead;
+
+        x = 1;
+
+        y = x;
+
+        z = y;
+
+        return z;
+    }
+
+    void use(int)
+    {
+        int n;
+        NotDead this;
+
+        this := @this: NotDead;
+
+        n := @parameter0: int;
+
+        return;
+    }
+
+    void <init>()
+    {
+        NotDead this;
+
+        this := @this: NotDead;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+}

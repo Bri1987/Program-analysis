@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pascal.taie.analysis.pta.CIPTATest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-09-13T03:20:40" hostname="LAPTOP-KBUS4ACO" time="4.956">
+  <properties/>
+  <testcase name="testMergeParam" classname="pascal.taie.analysis.pta.CIPTATest" time="4.956"/>
+  <system-out><![CDATA[Tai-e starts ...
+Writing options to output\options.yml
+Writing analysis plan to output\tai-e-plan.yml
+WorldBuilder starts ...
+9824 classes with 97545 methods in the world
+WorldBuilder finishes, elapsed time: 4.22s
+class-dumper starts ...
+Dumping 2 classes to output ...
+class-dumper finishes, elapsed time: 0.05s
+cipta starts ...
+-------------- Pointer analysis statistics: --------------
+#var pointers:                10
+#var points-to:               16
+#static field points-to:      0
+#instance field points-to:    0
+#array indexes points-to:     0
+#reachable methods:           4
+#call graph edges:            5
+----------------------------------------
+Comparing points-to set with src\test\resources\pta\cipta\MergeParam-cipta-expected.txt ...
+cipta finishes, elapsed time: 0.10s
+Tai-e finishes, elapsed time: 4.55s
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

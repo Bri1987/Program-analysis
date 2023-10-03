@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pascal.taie.analysis.dataflow.analysis.constprop.InterCPAliasTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-09-16T13:45:41" hostname="LAPTOP-KBUS4ACO" time="5.113">
+  <properties/>
+  <testcase name="testStaticFieldMultiStores" classname="pascal.taie.analysis.dataflow.analysis.constprop.InterCPAliasTest" time="5.113"/>
+  <system-out><![CDATA[Tai-e starts ...
+Writing options to output\options.yml
+Writing analysis plan to output\tai-e-plan.yml
+WorldBuilder starts ...
+9823 classes with 97546 methods in the world
+WorldBuilder finishes, elapsed time: 4.29s
+throw starts ...
+1 classes in scope (app) of class analyses
+5 methods in scope (app) of method analyses
+throw finishes, elapsed time: 0.06s
+cfg starts ...
+cfg finishes, elapsed time: 0.02s
+cspta starts ...
+-------------- Pointer analysis statistics: --------------
+#var pointers:                9 (insens) / 9 (sens)
+#var points-to:               0 (insens) / 0 (sens)
+#static field points-to:      0 (sens)
+#instance field points-to:    0 (sens)
+#array points-to:             0 (sens)
+#reachable methods:           4 (insens) / 4 (sens)
+#call graph edges:            4 (insens) / 4 (sens)
+----------------------------------------
+cspta finishes, elapsed time: 0.06s
+cg starts ...
+cg finishes, elapsed time: 0.00s
+icfg starts ...
+icfg finishes, elapsed time: 0.01s
+inter-constprop starts ...
+inter-constprop finishes, elapsed time: 0.04s
+process-result starts ...
+process-result finishes, elapsed time: 0.03s
+Tai-e finishes, elapsed time: 4.69s
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

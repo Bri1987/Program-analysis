@@ -1,0 +1,18 @@
+class A extends java.lang.Object {
+
+    B id(B b) {
+        B temp$0;
+        [0@L15] temp$0 = invokevirtual %this.<A: B _id(B)>(b);
+        [1@L15] return temp$0;
+    }
+
+    B _id(B p) {
+        [0@L19] return p;
+    }
+
+    void <init>() {
+        [0@L13] invokespecial %this.<java.lang.Object: void <init>()>();
+        [1@L13] return;
+    }
+
+}

@@ -1,0 +1,19 @@
+class B extends java.lang.Object {
+
+    A a;
+    C c;
+
+    C foo() {
+        C temp$0, x;
+        [0@L43] temp$0 = new C;
+        [1@L43] invokespecial temp$0.<C: void <init>()>();
+        [2@L43] x = temp$0;
+        [3@L44] return x;
+    }
+
+    void <init>() {
+        [0@L38] invokespecial %this.<java.lang.Object: void <init>()>();
+        [1@L38] return;
+    }
+
+}

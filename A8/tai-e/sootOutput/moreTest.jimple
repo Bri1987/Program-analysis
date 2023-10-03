@@ -1,0 +1,45 @@
+class moreTest extends java.lang.Object
+{
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.StringBuffer temp$1;
+        java.lang.String[] args;
+        java.lang.String taint, temp$0, s, temp$2;
+
+        args := @parameter0: java.lang.String[];
+
+        temp$0 = staticinvoke <SourceSink: java.lang.String source()>();
+
+        taint = temp$0;
+
+        temp$1 = new java.lang.StringBuffer;
+
+        specialinvoke temp$1.<java.lang.StringBuffer: void <init>()>();
+
+        virtualinvoke temp$1.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>("abc");
+
+        virtualinvoke temp$1.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(taint);
+
+        virtualinvoke temp$1.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>("xyz");
+
+        temp$2 = virtualinvoke temp$1.<java.lang.StringBuffer: java.lang.String toString()>();
+
+        s = temp$2;
+
+        staticinvoke <SourceSink: void sink(java.lang.String)>(s);
+
+        return;
+    }
+
+    void <init>()
+    {
+        moreTest this;
+
+        this := @this: moreTest;
+
+        specialinvoke this.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+}

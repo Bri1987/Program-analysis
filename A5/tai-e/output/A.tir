@@ -1,0 +1,8 @@
+class A extends java.lang.Object {
+
+    void <init>() {
+        [0@L17] invokespecial %this.<java.lang.Object: void <init>()>();
+        [1@L17] return;
+    }
+
+}

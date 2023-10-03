@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pascal.taie.analysis.dataflow.analysis.constprop.CPTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-09-09T17:13:40" hostname="LAPTOP-KBUS4ACO" time="5.356">
+  <properties/>
+  <testcase name="testInterprocedural" classname="pascal.taie.analysis.dataflow.analysis.constprop.CPTest" time="5.356"/>
+  <system-out><![CDATA[Tai-e starts ...
+Writing options to output\options.yml
+Writing analysis plan to output\tai-e-plan.yml
+WorldBuilder starts ...
+Warning: main class 'Interprocedural' does not have main(String[]) method!
+9823 classes with 97546 methods in the world
+WorldBuilder finishes, elapsed time: 4.52s
+throw starts ...
+1 classes in scope (app) of class analyses
+5 methods in scope (app) of method analyses
+throw finishes, elapsed time: 0.05s
+cfg starts ...
+cfg finishes, elapsed time: 0.02s
+constprop starts ...
+constprop finishes, elapsed time: 0.01s
+process-result starts ...
+process-result finishes, elapsed time: 0.02s
+Tai-e finishes, elapsed time: 4.84s
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

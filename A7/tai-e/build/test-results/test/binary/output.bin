@@ -1,0 +1,32 @@
+Tai-e starts ...
+'Writing options to output\options.yml
+0Writing analysis plan to output\tai-e-plan.yml
+WorldBuilder starts ...
+.9823 classes with 97546 methods in the world
+,WorldBuilder finishes, elapsed time: 4.29s
+throw starts ...
+,1 classes in scope (app) of class analyses
+-5 methods in scope (app) of method analyses
+%throw finishes, elapsed time: 0.06s
+cfg starts ...
+#cfg finishes, elapsed time: 0.02s
+cspta starts ...
+<-------------- Pointer analysis statistics: --------------
+5#var pointers:                9 (insens) / 9 (sens)
+5#var points-to:               0 (insens) / 0 (sens)
+(#static field points-to:      0 (sens)
+(#instance field points-to:    0 (sens)
+(#array points-to:             0 (sens)
+5#reachable methods:           4 (insens) / 4 (sens)
+5#call graph edges:            4 (insens) / 4 (sens)
+*----------------------------------------
+%cspta finishes, elapsed time: 0.06s
+cg starts ...
+"cg finishes, elapsed time: 0.00s
+icfg starts ...
+$icfg finishes, elapsed time: 0.01s
+inter-constprop starts ...
+/inter-constprop finishes, elapsed time: 0.04s
+process-result starts ...
+.process-result finishes, elapsed time: 0.03s
+%Tai-e finishes, elapsed time: 4.69s

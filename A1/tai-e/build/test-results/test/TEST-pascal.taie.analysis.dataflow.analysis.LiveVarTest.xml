@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pascal.taie.analysis.dataflow.analysis.LiveVarTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-09-08T14:11:05" hostname="LAPTOP-KBUS4ACO" time="5.032">
+  <properties/>
+  <testcase name="Reference" classname="pascal.taie.analysis.dataflow.analysis.LiveVarTest" time="5.032"/>
+  <system-out><![CDATA[Tai-e starts ...
+Writing options to output\options.yml
+Writing analysis plan to output\tai-e-plan.yml
+WorldBuilder starts ...
+Warning: main class 'Reference' does not have main(String[]) method!
+9826 classes with 97547 methods in the world
+WorldBuilder finishes, elapsed time: 4.32s
+throw starts ...
+4 classes in scope (app) of class analyses
+6 methods in scope (app) of method analyses
+throw finishes, elapsed time: 0.06s
+cfg starts ...
+cfg finishes, elapsed time: 0.02s
+livevar starts ...
+livevar finishes, elapsed time: 0.02s
+process-result starts ...
+process-result finishes, elapsed time: 0.03s
+Tai-e finishes, elapsed time: 4.63s
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,8 @@
+class C extends B {
+
+    void <init>() {
+        [0@L26] invokespecial %this.<B: void <init>()>();
+        [1@L26] return;
+    }
+
+}

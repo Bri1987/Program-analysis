@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/A1/tai-e" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../gradle/gradle-7.1.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/A1/tai-e" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/A2/tai-e" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../gradle/gradle-7.1.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/A2/tai-e" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/A3/tai-e" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../gradle/gradle-7.1.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/A3/tai-e" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/A4/tai-e" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../gradle/gradle-7.1.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/A4/tai-e" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/A5/tai-e" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../gradle/gradle-7.1.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/A5/tai-e" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/A6/tai-e" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../gradle/gradle-7.1.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/A6/tai-e" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/A7/tai-e" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../gradle/gradle-7.1.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/A7/tai-e" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/A8/tai-e" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../gradle/gradle-7.1.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/A8/tai-e" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

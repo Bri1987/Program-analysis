@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pascal.taie.analysis.pta.TaintTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-09-17T15:52:59" hostname="LAPTOP-KBUS4ACO" time="6.832">
+  <properties/>
+  <testcase name="moreTest" classname="pascal.taie.analysis.pta.TaintTest" time="6.832">
+    <failure message="pascal.taie.util.AnalysisException: Failed to read taint flows from src\test\resources\pta\taint\moreTest-cspta-expected.txt" type="pascal.taie.util.AnalysisException">pascal.taie.util.AnalysisException: Failed to read taint flows from src\test\resources\pta\taint\moreTest-cspta-expected.txt
+	at app//pascal.taie.analysis.pta.plugin.ResultProcessor.readTaintFlows(ResultProcessor.java:276)
+	at app//pascal.taie.analysis.pta.plugin.ResultProcessor.compareTaintFlows(ResultProcessor.java:246)
+	at app//pascal.taie.analysis.pta.plugin.ResultProcessor.process(ResultProcessor.java:92)
+	at app//pascal.taie.analysis.pta.cs.CSPTA.analyze(CSPTA.java:58)
+	at app//pascal.taie.analysis.pta.cs.CSPTA.analyze(CSPTA.java:42)
+	at app//pascal.taie.analysis.AnalysisManager.runProgramAnalysis(AnalysisManager.java:88)
+	at app//pascal.taie.analysis.AnalysisManager.runAnalysis(AnalysisManager.java:71)
+	at app//pascal.taie.analysis.AnalysisManager.lambda$execute$0(AnalysisManager.java:60)
+	at app//pascal.taie.util.Timer.lambda$runAndCount$0(Timer.java:112)
+	at app//pascal.taie.util.Timer.runAndCount(Timer.java:93)
+	at app//pascal.taie.util.Timer.runAndCount(Timer.java:111)
+	at app//pascal.taie.util.Timer.runAndCount(Timer.java:107)
+	at app//pascal.taie.analysis.AnalysisManager.lambda$execute$1(AnalysisManager.java:59)
+	at java.base@17.0.1/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at app//pascal.taie.analysis.AnalysisManager.execute(AnalysisManager.java:59)
+	at app//pascal.taie.Main.executePlan(Main.java:142)
+	at app//pascal.taie.Main.lambda$main$0(Main.java:56)
+	at app//pascal.taie.util.Timer.lambda$runAndCount$0(Timer.java:112)
+	at app//pascal.taie.util.Timer.runAndCount(Timer.java:93)
+	at app//pascal.taie.util.Timer.runAndCount(Timer.java:111)
+	at app//pascal.taie.util.Timer.runAndCount(Timer.java:107)
+	at app//pascal.taie.Main.main(Main.java:48)
+	at app//pascal.taie.analysis.Tests.doTestPTA(Tests.java:84)
+	at app//pascal.taie.analysis.Tests.testCSPTA(Tests.java:52)
+	at app//pascal.taie.analysis.pta.TaintTest.moreTest(TaintTest.java:76)
+	at java.base@17.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.1/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at app//org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at app//org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at app//org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at app//org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at app//org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at app//org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at app//org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at app//org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at app//org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at app//org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at app//org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at app//org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at app//org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at app//org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at app//org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base@17.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.1/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+Caused by: java.nio.file.NoSuchFileException: src\test\resources\pta\taint\moreTest-cspta-expected.txt
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:121)
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:298)
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:357)
+	at java.base/java.nio.file.Files.lines(Files.java:4132)
+	at java.base/java.nio.file.Files.lines(Files.java:4227)
+	at pascal.taie.analysis.pta.plugin.ResultProcessor.readTaintFlows(ResultProcessor.java:271)
+	... 67 more
+</failure>
+  </testcase>
+  <system-out><![CDATA[Tai-e starts ...
+Writing options to output\options.yml
+Writing analysis plan to output\tai-e-plan.yml
+WorldBuilder starts ...
+9824 classes with 97549 methods in the world
+WorldBuilder finishes, elapsed time: 5.25s
+class-dumper starts ...
+Dumping 2 classes to output ...
+class-dumper finishes, elapsed time: 0.06s
+cspta starts ...
+TaintConfig:
+sources:
+  <SourceSink: java.lang.String source()>(java.lang.String)
+  <SourceSink: java.lang.String sourceAndSink(java.lang.String,java.lang.String)>(java.lang.String)
+
+sinks:
+  <SourceSink: void sink(java.lang.String)>/0
+  <SourceSink: void sink(java.lang.String,int)>/0
+  <SourceSink: void sink(java.lang.String,java.lang.String)>/1
+  <SourceSink: java.lang.String sourceAndSink(java.lang.String,java.lang.String)>/0
+
+transfers:
+  <java.lang.String: java.lang.String concat(java.lang.String)>: base -> result(java.lang.String)
+  <java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>: 0 -> base(java.lang.StringBuilder)
+  <java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>: 0 -> base(java.lang.StringBuilder)
+  <java.lang.String: char[] toCharArray()>: base -> result(char[])
+  <java.lang.StringBuffer: java.lang.String toString()>: base -> result(java.lang.String)
+  <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>: 0 -> base(java.lang.StringBuffer)
+  <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.String)>: 0 -> base(java.lang.StringBuffer)
+  <java.lang.StringBuilder: java.lang.String toString()>: base -> result(java.lang.String)
+  <java.lang.String: java.lang.String concat(java.lang.String)>: 0 -> result(java.lang.String)
+  <java.lang.String: void <init>(char[])>: 0 -> base(java.lang.String)
+
+her
+-------------- Pointer analysis statistics: --------------
+#var pointers:                470 (insens) / 1,4164 (sens)
+#var points-to:               465 (insens) / 8191 (sens)
+#static field points-to:      0 (sens)
+#instance field points-to:    316 (sens)
+#array points-to:             0 (sens)
+#reachable methods:           82 (insens) / 2042 (sens)
+#call graph edges:            171 (insens) / 4670 (sens)
+----------------------------------------
+Comparing taint flows with src\test\resources\pta\taint\moreTest-cspta-expected.txt ...
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

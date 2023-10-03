@@ -1,0 +1,26 @@
+class moreTest extends java.lang.Object {
+
+    public static void main(java.lang.String[] args) {
+        java.lang.String temp$0, taint, %stringconst0, %stringconst1, temp$2, s;
+        java.lang.StringBuffer temp$1;
+        [0@L3] temp$0 = invokestatic <SourceSink: java.lang.String source()>();
+        [1@L3] taint = temp$0;
+        [2@L4] temp$1 = new java.lang.StringBuffer;
+        [3@L4] invokespecial temp$1.<java.lang.StringBuffer: void <init>()>();
+        [4@L4] %stringconst0 = "abc";
+        [5@L4] invokevirtual temp$1.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(%stringconst0);
+        [6@L4] invokevirtual temp$1.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(taint);
+        [7@L4] %stringconst1 = "xyz";
+        [8@L4] invokevirtual temp$1.<java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.Object)>(%stringconst1);
+        [9@L4] temp$2 = invokevirtual temp$1.<java.lang.StringBuffer: java.lang.String toString()>();
+        [10@L4] s = temp$2;
+        [11@L5] invokestatic <SourceSink: void sink(java.lang.String)>(s);
+        [12@L5] return;
+    }
+
+    void <init>() {
+        [0@L1] invokespecial %this.<java.lang.Object: void <init>()>();
+        [1@L1] return;
+    }
+
+}

@@ -1,0 +1,22 @@
+class List extends java.lang.Object {
+
+    java.lang.Object element;
+
+    void add(java.lang.Object e) {
+        [0@L41] %this.<List: java.lang.Object element> = e;
+        [1@L41] return;
+    }
+
+    Iterator iterator() {
+        List$ListIterator temp$0;
+        [0@L44] temp$0 = new List$ListIterator;
+        [1@L45] invokespecial temp$0.<List$ListIterator: void <init>(List)>(%this);
+        [2@L45] return temp$0;
+    }
+
+    void <init>() {
+        [0@L36] invokespecial %this.<java.lang.Object: void <init>()>();
+        [1@L36] return;
+    }
+
+}
